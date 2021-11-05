@@ -1,0 +1,33 @@
+#app-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 180vh;
+    padding: 40px 20px;
+}
+#questions-container {
+    display: grid;
+    grid-template-columns: repeat (3, auto);
+    grid-template-rows: repeat (3, nax-content);
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+#score-container {
+    position: fixed;
+    right: 40px;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahona, sans serif;
+    color: white;
+    background: Orgb(13, 110, 221);
+    padding: 10px 15px;
+    min-width: 100px;
+    min-height: 45px;
+    border-radius: 10px;
+}
