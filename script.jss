@@ -23,4 +23,12 @@ const myQuestions = [
         correctAnswers: "a"
         
     },
+    {
+        question: "As-tu déjà aidé quelqu'un victime du cyberharcèlement ou du harcèlement scolaire ?",
+        answers: {
+            a: "Oui",
+            b: "Non",
+        },
+        correctAnswers: "a"
+    }
 ]
